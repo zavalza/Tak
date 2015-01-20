@@ -1,0 +1,52 @@
+// Import Vendors
+// mrt add less-bootstrap-3
+@import "../../packages/bootstrap3-less/lib/less/bootstrap.import.less";
+// mrt add less-fontawesome-4
+//@import "../../packages/font-awesome-4-less/lib/less/core.import.less";
+
+// Vendor Variables
+@import "variables_bootstrap.import.less";
+@import "variables_fontawesome.import.less";
+
+
+@import url(http://fonts.googleapis.com/css?family=Dosis:500);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+
+/* CSS declarations go here */
+html {
+	background:#505D6E url(startupTeam2.jpg) no-repeat right; 
+	min-height:100%;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+
+body {
+	background:transparent;
+	min-height:100%; 	
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	line-height: 1.5em;
+	font-size:14px;
+	font-family: Helvetica, Arial, sans-serif;
+	color:#fff;
+	font-weight: normal;
+}
+
+.row { margin: 0; padding: 0 }
+
+/*Typeform*/
+html{
+			margin: 0;
+			height: 100%;
+			overflow: hidden;
+		}
+		iframe{
+			position: absolute;
+			left:0;
+			right:0;
+			bottom:0;
+			top:0;
+			border:0;
+		}
